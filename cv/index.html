@@ -1,0 +1,115 @@
+<!-- Informamos al navegador la version de
+    HTML que estamos usando. En este caso HTML5 -->
+<!DOCTYPE html>
+
+<!-- La etiqueta <html> es de uso unico e indica los elementos
+    que se deberian usar para la pagina web -->
+<html>
+    <!-- La etiqueta <head> es de uso unico y describe los
+        metadatos de la pagina web. Metadato se define como un dato
+        describe otros datos, y esto precisamente lo que hace la
+        etiqueda <head> -->
+    <head>
+        <!-- La etiqueta <title> describe el titulo de nuestra
+            pagina y tiene contenido, el cual sera mostrado como
+            su nombre en la pestana del navegador -->
+        <title>CV de Ember Rose</title>
+        <!-- La etiqueta <meta> puede describir distintas cosas,
+            pero en este caso describe el conjunto de caracteres
+            que queremos usar. Usamos UTF-8 ya que incluye
+            carácteres como acentos, Ñ, etc. que sin esta etiqueta
+            haria que no se muestren en el navegador. -->
+        <meta charset="utf-8">
+        <!-- El dato "description" de <meta> se utiliza para 
+            realizar una breve (120 caracteres) description
+            del sitio web que se utiliza cuando envias un link
+            por mensaje -->
+        <meta name="description" content="Ember es una programadora novicia auto-didacta entrando al mundo del desarrollo web">
+    </head>
+    <!-- La etiqueta <body> va dentro de <html> y tambien es
+        de uso unico. Describe los elementos en si, como
+        imagenes y texto que ira dentro de nuestra pagina -->
+    <body style="font-family: Arial, Helvetica, sans-serif; margin: 0;">
+        <!-- La etiqueta <header> es distinte de <head> y se refiere
+            a un encabezado. Mientras que <head> solo se utiliza
+            una vez y para describir metadatos, <header> se utiliza
+            para describir un encabezado cualquiera, como lo puede
+            ser de un parrafo, imagen, etc. -->
+        <header style="background-color: #3949AB; color:white; text-align: center; padding: 16px;">
+            <!-- La etiqueta <h1> se refiere al titulo principal de
+                la pagina web y por defecto se mostrara grande.
+                Es muy poco recomendado usar mas de una etiqueta h1
+                en tu documento. -->
+            <h1 style="display:inline-block; width: 400px; font-weight: 700;">CV de Ember Rose</h1>
+            <!-- La etiqueta <p> describe el elemento de un parrafo,
+                con el texto entre la etiqueta inicial y final
+                tomandose como el contenido de la etiqueta para
+                mostrar -->
+            <p style="display:inline-block; width: 400px; font-weight: 200;">Frontend Web Developer</p>
+        </header>
+        <!-- El elemento <div> se utiliza para crear contenedores
+            de cualquier cosa y no tiene una representiacion visual
+            en si, pero se suele usar para definir los estilos de
+            los elementos dentro de si -->
+        <div style="background-color: #f06292; color:black; text-align: center; padding: 10px;">
+            Novice self-taught programmer learning Front-end Web Development
+        </div>
+        <!-- La etiqueta section simplemente es para separar secciones
+            en el sitio web. No deberia reflejar cambios en el documento,
+            y la utilizan otros programadas para entender el contenido
+            del sitio -->
+        <section>
+            <div style="width: 960px; margin-right: auto; margin-left: auto;">
+                <div>
+                    <div style="display: inline-block; width: 68%; vertical-align: top;">
+                        <h3 style="font-size: 36px; font-weight: bold;">Education</h3>
+                        <div>
+                            <dl>
+                                <dt style="font-size: 22px; text-transform: uppercase; margin-bottom: 12px; margin-top: 36px;">Software Engineering</dt>
+                                <dd>2023-2027. Universidad de Santiago de Chile</dd>
+                                <dt style="font-size: 22px; text-transform: uppercase; margin-bottom: 12px; margin-top: 36px;">CAE</dt>
+                                <dd>December 2022. C1 Advanced - Score 197</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div style="display: inline-block; width: 30%; vertical-align: top; margin-top: 20px;">
+                        <img src="images/theimage.png" width="70%">
+                    </div>
+                </div>
+                <div style="margin-top: 70px;">
+                    <h3 style="font-size: 36px; font-weight: bold;">Certificates</h3>
+                    <div>
+                        <dl>
+                            <dt style="font-size: 22px; text-transform: uppercase; margin-bottom: 12px; margin-top: 36px;">Introduction to Programming using Python</dt>
+                            <dd>Late 2022. Pontificia Universidad Católica de Chile</dd>
+                            <dt style="font-size: 22px; text-transform: uppercase; margin-bottom: 12px; margin-top: 36px;">Computing Tools (CC-1000)</dt>
+                            <dd>Early 2023. Universidad de Chile</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div style="margin-top: 70px;">
+                    <h3 style="font-size: 36px; font-weight: bold;">Experience</h3>
+                    <div>
+                        <dl>
+                            <dt style="font-size: 22px; text-transform: uppercase; margin-bottom: 12px; margin-top: 36px;">Server Hosting</dt>
+                            <dd>2023 - Present. USACH Gaming</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div style="margin-top: 70px;">
+                    <h3 style="font-size: 36px; font-weight: bold;">Social Media</h3>
+                    <div>
+                        <ul>
+                            <li style="margin-top: 16px;">
+                                <a href="https://github.com/charagender"; target="_blank">GitHub</a>
+                            </li>
+                            <li style="margin-top: 16px;">
+                                <a href="https://linkedin.com/in/scarlet-rose-852273235"; target="_blank">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
